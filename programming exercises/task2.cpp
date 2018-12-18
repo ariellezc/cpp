@@ -68,8 +68,7 @@ void decToBin(vector<int> vec){
 	}  
 	for (int i=0; i<newVec.size(); i++){
 		cout << vec[i] << ":" << newVec[i] << endl;
-    }
-	
+    }	
 	isPalindrome(vec, newVec);
 }
 
