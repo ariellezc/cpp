@@ -43,8 +43,7 @@ void isPalindrome(vector<int> vec, vector<string> newVec){
 	cout << "Palindrome numbers:" << endl;
 	for (int i=0; i<isPalindromeVec.size(); i++){
 		cout << isPalindromeNum[i] << ":" << isPalindromeVec[i] << endl;
-	}
-	
+	}	
 	isNotPalindrome(vec, isPalindromeNum, newVec, isPalindromeVec);
 	
 }
@@ -67,7 +66,6 @@ void decToBin(vector<int> vec){
 		}
 		newVec.emplace_back(s);
 	}  
-  
 	for (int i=0; i<newVec.size(); i++){
 		cout << vec[i] << ":" << newVec[i] << endl;
     }
